@@ -1,0 +1,36 @@
+.whlead{
+    top: 70px;
+    max-width: 1100px;
+    padding: 0 20px;
+    position: relative;
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lead__logo {
+    margin-top: 35px;
+}
+
+
+.whlead>h2{
+    font-size: 2.125rem;
+    color:#00b39b;
+    margin-top: 35px;
+}
+
+.leadgrid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    color:#747474;
+}
+
+.leadp{
+    max-width: 475px;
+    padding: 0 10px;
+}

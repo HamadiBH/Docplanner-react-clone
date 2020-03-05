@@ -1,0 +1,39 @@
+.brands{
+    max-width: 1100px;
+    padding: 70px 0px 0px 0px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 115px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    justify-items: center;
+    color: #00ccb1;
+}
+
+.brands>h2{
+    float: left;
+    width: 320px;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    
+}
+
+.brands-logos{
+    float: left;
+    font-size: 0;
+    width: 850px;
+    list-style: none;
+    margin: 40 40 0 0px;
+
+}
+
+.brands-logos svg{
+    fill: lightgray;
+    height: 20px;
+}
+
+.brands-logos svg :hover{
+    fill: #00ccb1;
+}

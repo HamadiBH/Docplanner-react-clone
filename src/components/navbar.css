@@ -1,0 +1,56 @@
+.brbg{
+    height: 70px;
+    background: #ffffff;
+
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height: 70px;
+    width: 1100px;
+    
+    position: fixed;
+    z-index: 1;
+    background: #ffffff;
+    transition:all .2s ease 0s;
+    margin: 0 auto;
+    color:#747474;
+}
+.logo-docplanner{
+    height: 33px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: center; */
+    width:250px;
+    list-style: none;
+    position: relative;
+  }
+
+.title{
+    position: relative;
+}
+
+.title:hover  .drop-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+
+}
+
+.drop-list{
+    display: none;
+    left: -25px;
+    list-style: none;
+    position: absolute;
+    width: 220px;
+    height:220px;
+    background: #ffffff;
+    
+}
